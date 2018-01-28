@@ -2,6 +2,7 @@
 ## head元素
 * meta
     1. ```<meta charset="utf-8">```
+    2. <meta charset="utf-8">
 * title
 * style
 * link

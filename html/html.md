@@ -37,4 +37,18 @@
    6. ```<figcaption>```figure的标题
    7. ```<figure>```规定独立的流内容(图像、图标、照片、代码等等)
    8. ```<footer>```
-   9. 
+   9. 表单增强
+      * 日期、时间、搜索
+      * 表单验证
+      * Placeholder 自动聚焦
+   10. em / strong 强调
+   11. i icon   
+ # HTML版本
+ * HTML4 / 4.01(SGML)
+ * XHTML(XML)
+ * HTML5
+ # HTML元素分类
+ * 按默认样式
+   * 块级元素 block
+   * 行内元素 inline
+   * inline-block

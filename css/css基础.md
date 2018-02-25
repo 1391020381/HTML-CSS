@@ -61,12 +61,31 @@
        * 多背景图片和属性(雪碧图)
        * base64和性能优化(图片转base64大小会增大1/3,会和css一起,增大解密的开销)
        * 多分辨率适配
-       
-
        * 边框的属性：线型、大小、颜色
-       * 边框背景图
-       * 边框衔接(三角形)
-    3. 滚动、换行  
+       * 边框背景图(border-image,round<保证图片重复次数为整数>)
+       * 边框衔接(三角形,边框的衔接地方斜切的,且边框不占content的位置,content为0就可以做三角形)
+    3. 滚动、换行 
+        * auto(超出显示滚条)  scroll(始终显示) hidden visible 
+        * overflow-wrap(word-wrap)通用换行控制(是否保留单词)
+        * word-break针对多个文字(中文也是单词)
+        * white-space空白处是否断行
     4. 粗体、斜体、下划线
+       * 字重(粗体)font-weight
+       * 斜体font-style:itatic
+       * 下划线 text-decoration
+       * 指针 cursor
     5. 其它
+       * CSS Hack
+       * 雪碧图
+       * 表单美化
+       ```
+       <input type="checkbox" id="aaa">
+       <label for="aaa"></label>
+       ```
+       input:checked + label{
+
+       }
+       input +label{
+         
+       }
   * 值得关注的选择器

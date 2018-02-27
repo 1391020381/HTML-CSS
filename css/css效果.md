@@ -1,3 +1,32 @@
+* box-shadow
+  1. 营造层次感(立体感)
+  2. 充当没有宽度的边框
+  3. 特殊效果
+* text-shadow
+   1. 立体感
+   2. 印刷品质感
+* border-radius
+   1. 圆角矩形
+   2. 圆形
+   3. 半圆/扇形
+   4. 一些奇怪的角角(width:0;height:0;调整border-radius<四个角可以不一样>) 
+* background
+    1. 纹理、图案
+    2. 渐变(线性,圆形)
+    3. 雪碧图动画
+    ```
+    .i {
+        width:20px;
+        height:20px;
+        background:url(./background.png) no-repeat;
+        background-size:20px 40px;
+        transition:background-position .4s;
+    }
+    .i:hover{
+        background-position:0 -20px;
+    }
+    ```
+    4. 背景图尺寸适应   
 * clip-path
  1. 对容器进行裁剪 
  2. 常见几何图形

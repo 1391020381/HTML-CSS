@@ -15,3 +15,10 @@
      * cssnext 中已经包含了对 Autoprefixer 的使用，因此使用了 cssnext 就不再需要使用 Autoprefixer。
    3. cssnano <cssnano 会压缩你的 CSS 文件来确保在开发环境中下载量尽可能的小。> 
    4. PostCSS Sprites <将扫描你CSS中使用的所有图像，自动生成优化的 Sprites 图像和 CSS Sprites 代码>
+
+   # webpack 和css
+   1. css-lader将css变成js
+   2. style-loader将Js样式插入head
+   3. ExtractTextPlugin将css从JS中提取出来
+   4. css modules解决css命名冲突的问题
+   5. less-loader sass-loader各类预处理器

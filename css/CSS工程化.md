@@ -22,3 +22,7 @@
    3. ExtractTextPlugin将css从JS中提取出来
    4. css modules解决css命名冲突的问题
    5. less-loader sass-loader各类预处理器
+
+   # Vue和css
+    * scope
+    * module
